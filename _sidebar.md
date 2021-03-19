@@ -1,7 +1,6 @@
 <!-- docs/_sidebar.md -->
 
-- Home
-  - [](/)
+- [Home](/)
 - Intro
   - [Hi](intro.md)
 - Test
