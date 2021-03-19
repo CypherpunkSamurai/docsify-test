@@ -1,7 +1,4 @@
 <!-- docs/_sidebar.md -->
 
-
-- [HOME](./)
-
-- [Intro](intro)
-- [Test](test)
+* [Home](/)
+* [Hi](intro.md)
