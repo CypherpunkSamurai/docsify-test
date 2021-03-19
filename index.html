@@ -16,7 +16,8 @@
   <link rel="stylesheet alternative" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css" title="dark">
   <!-- docsify-themeable styles-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css" title="light">
-
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />
+  
   <title>Docsify Test</title>
 </head>
 <body>
@@ -25,6 +26,8 @@
     window.$docsify = {
       el: "#app",
       auto2top   : true,
+      subMaxLevel: 3,
+      sidebarDisplayLevel: 1,
       loadSidebar: true,
       search: {
                 depth      : 3,
